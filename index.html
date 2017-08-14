@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <title>Creative Digital Media-Brian's Halloween</title>	    
+  <link rel="stylesheet"  type="text/css" href="myStyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script  type="text/javascript" src= "gameScript.js"></script>        
+</head>
+
+<body>
+   <div class="wrapper">  
+       <div id="play">     
+          <canvas id ="backgroundCanvas" width="800" height="600"></canvas>
+          <canvas id ="playerCanvas" width="800" height="600"></canvas>
+          <canvas id ="enemyCanvas" width="800" height="600"></canvas>
+          <canvas id ="starsCanvas" width="800" height="600"></canvas> 
+          <canvas id ="scoreCanvas" width="800" height="600"></canvas>        
+       </div><!--END div id play -->
+     
+       <div id= "menu" class="main">
+         <h1> Brian's Halloween </h1>
+         <h3> About the Game</h3>
+         <p> Collect 500 points by picking the passing Stars to Win the game.</p>
+         <p> Avoid the passing pumpkins as at collision with a pumpkin the game is Over.</p> 
+         <h3> How to Play</h3>
+         <p> Use <img src="Images/arrowKey.png" alt="arrow keys">  Keys to move Left and Right</p>
+         <p> Use the Space Key to Jump</p>
+      
+       <div id = "playButton" class= "button">  
+         <button  class= "button" onclick="myFunction()"> PLAY </button>
+           <script>
+              function myFunction() {
+                location.reload();
+              }
+          </script>
+       </div><!--END div id playButton-->
+         <p> &nbsp;</p>
+       </div><!--END div id manu--> 
+   </div><!--END div class wrapper--> 
+</body>
+</html>

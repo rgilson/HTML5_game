@@ -1,0 +1,63 @@
+ .wrapper {
+  position: absolute;
+  width: 80%;
+  top:20px;
+  left:20px;
+  background: transparent;
+  border: 5px solid #ff0000;
+  border-radius: 5%;
+ }	
+   div{
+		font-family: verdana, helvetica;
+	   font-size: 1em;
+     
+	}
+ canvas{
+  position: absolute;
+ // top:20px;
+  left:270px;
+  background: transparent;
+ }
+ 
+#backgroundCanvas{
+  background-image:  url("images/background.png");
+  border: 5px solid #ff0000;
+  border-radius: 10%;
+ }
+
+.main{
+  width: 250px;
+  margin-left:5px;
+  background-color:#CF3;
+  margin-top:25px;
+}
+.main h1{
+  margin-left: 5px;
+}
+.main h3{
+  margin-left: 5px;
+}
+.main p{
+  margin-left: 10px;
+} 
+
+.button {
+    background-color: #ff0000;
+   // border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #00FF00;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 4px 15px;
+    cursor: pointer;
+    //margin-left: 15px;
+} 
+.button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+ 
